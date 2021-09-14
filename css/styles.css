@@ -22,6 +22,7 @@ ul {
   float: right;
 }
 a {
+  font-family: Urbanist;
   color: black;
   text-decoration: none;
   margin-left: 10px;
@@ -30,3 +31,7 @@ a {
   font-family: RobotoCondensed;
   src: url(../Fonts/Roboto_Condensed/RobotoCondensed-Bold.ttf);
 } 
+@font-face {
+  font-family: Urbanist;
+  src: url('../Fonts/Urbanist/Urbanist-Italic-VariableFont_wght.ttf');
+}
