@@ -37,8 +37,8 @@ a {
 }
 article {
   text-align: center;
-  margin: 32px auto;
-  width: 80%;
+  /* margin: 32px auto; */
+  /* width: 80%; */
 }
 .column img {
   margin-top: 8px;
@@ -55,4 +55,32 @@ article {
   max-width: 25%;
   padding: 0 4px;
   margin: 0 auto;
+}
+div#slider  {
+  background-image: url(../images/1.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 160px);
+  animation: change1 5s infinite;
+  animation-delay: 0.3s;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+@keyframes change1 {
+     0% {
+        background-image: url('../images/1.jpeg');
+      }
+      25% {
+        background-image: url('../images/2.jpeg');
+      }
+      50% {
+        background-image: url('../images/3.webp');
+      }
+      75% {
+        background-image: url('../images/4.jpeg');
+      }
+      100% {
+        background-image: url('../images/5.png');
+      }
 }
