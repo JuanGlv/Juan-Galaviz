@@ -1,30 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
-<body>
-    <div class="red"></div>
-    <div class="blue"></div>
-    <div class="green"></div>
-</body>
+<head>
    <style>
  div {
-  width: 100%;
+  width: 100px;
   height: 100px;
   border: 1px solid;
 }
 .red {
   background-color: red;
-  margin: 0 -20px;
 }
 .blue {
   background-color: blue;
-  padding: 20px;
-  margin: 46px 0;
-  margin-left: 20px;
 }
 .green {
   background-color: green;
-  padding: 0 20px 0 20px;
-  margin: -46px 0;
 }
 .margin {
   margin: 16px;
@@ -45,3 +35,9 @@
   padding: 16px 0 16px 0;
 }
     </style>
+    </head>
+<body>
+  <div class="red margin-x"></div>
+  <div class="blue margin"></div>
+  <div class="green margin-y"></div>
+</body>
