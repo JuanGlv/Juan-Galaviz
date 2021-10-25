@@ -30,7 +30,7 @@ Algoritmo OperacionesAritmeticas
 	Escribir "El modulo fue de:"
 	Escribir modulo
 	
-	potencia = numero1^2
+	potencia = numero1^numero2
 	
 	Escribir "La potencia fue de:"
 	Escribir potencia	
